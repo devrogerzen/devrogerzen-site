@@ -1,0 +1,32 @@
+
+adapters:  son aquellos que reciben informacion la adaptan y la revuelven.
+
+
+assets: cada cosa que nuestra aplicacion multimedia, tipografia, imagenes,
+
+
+components: 
+
+
+contents: aqui metemos cualquier cosa que se utilize como entidad que se valla a usar en la app,
+ se agraga al padre o directamente al hijo para que asi solamente se cargue cuando la necesitamos
+
+models: es mas que nada para typescript para representar las identidades.
+
+
+payload: significa cual es la carga que vamos a utilizar para modificar el estado
+
+services: todos los servicios para conectar a una aplicacion
+
+styled-components: muchos archivos styled-components un archivo de layauts y meter todos los componentes de stylos 
+relacionados con el layauts para no bombardear la carpeta con tantos archivos.
+
+
+utilities: logica o contexto que funcione hacia el codigo ejemplo un formateador de fechaz.
+
+
+redux: cosa que afecte directamente a toda la aplicacion usamos redux
+
+context: para una vista que esta dentro de una aplicacion o una porcion usamos context
+
+

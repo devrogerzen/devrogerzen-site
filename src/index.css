@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "roboto-regular";
+  src: url(./utilities/Fonts/ROBOTOCONDENSED-REGULAR.TTF);
+}
+@font-face {
+  font-family: "roboto-bold";
+  src: url(./utilities/Fonts/ROBOTOCONDENSED-BOLD.TTF);
+}
+@font-face {
+  font-family: "roboto-light";
+  src: url(./utilities/Fonts/ROBOTOCONDENSED-LIGHT.TTF);
+}
+@font-face {
+  font-family: "roboto-regular";
+  src: url(./utilities/Fonts/ROBOTOCONDENSED-REGULAR.TTF);
+}
+@font-face {
+  font-family: "bauhs93";
+  src: url(./utilities/Fonts/BAUHS93.TTF);
+}
+@font-face {
+  font-family: "bebasneue";
+  src: url(./utilities/Fonts/BEBASNEUE-REGULAR.TTF);
+}
+@font-face {
+  font-family: "gameplay";
+  src: url(./utilities/Fonts/Gameplay.ttf);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.navlink_nav {
+  text-decoration: none;
+  color: #fff;
+  height: 100%;
+  font-family: roboto-bold;
+  letter-spacing: 0.5px;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  padding: 0 1vh;
+  user-select: none;
+}
+
+.navlink_nav:hover {
+  transition: 1s;
+  background-color: #90a788;
+  scale: 1.1;
+  cursor: pointer;
+}
+
+
+
+
+
