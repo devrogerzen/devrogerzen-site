@@ -2,6 +2,7 @@ import Layout from "../Layouts/Layout";
 import { NightLifeBG } from "../components/NightLifeBG";
 import { AboutMe } from "../components/AboutMe";
 import { Letrero } from "../components/Letrero";
+import { ServicesCard } from "../components/ServicesCard";
 
 const HomePage = () => {
   return (
@@ -9,6 +10,7 @@ const HomePage = () => {
       <NightLifeBG />
       <Letrero />
       <AboutMe />
+      <ServicesCard />
     </Layout>
   );
 };
