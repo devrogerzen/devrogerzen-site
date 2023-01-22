@@ -8,8 +8,6 @@ const NavBarStyled = styled.nav`
   position: relative;
   align-items: center;
   justify-content: space-between;
-  background-color: #3a3a3a;
-  color: #fff;
   padding: 0 3vw;
   box-shadow: 0 0 10px 0 #000;
 

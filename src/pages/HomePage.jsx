@@ -9,8 +9,8 @@ const HomePage = () => {
     <Layout>
       <NightLifeBG />
       <Letrero />
-      <AboutMe />
       <ServicesCard />
+      <AboutMe />
     </Layout>
   );
 };
