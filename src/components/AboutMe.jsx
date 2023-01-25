@@ -5,20 +5,12 @@ export const AboutMe = () => {
   const ContentMeStyled = styled.div`
     width: 100%;
     display: flex;
-    padding-top: 3vh;
+    padding-top: 20vh;
     justify-content: center;
     align-items: center;
     @media (max-width: 968px) {
       flex-direction: column;
     }
-    /* background: linear-gradient(#333, #f6f6f6);
-    background: linear-gradient(
-        217deg,
-        rgba(255, 0, 0, 0.8),
-        rgba(255, 0, 0, 0) 70.71%
-      ),
-      linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
-      linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%); */
   `;
 
   const RightMeStyled = styled.div`

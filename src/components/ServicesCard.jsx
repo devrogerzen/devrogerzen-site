@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import OrdenadorPer from "../utilities/images/ordenador-personal.png";
-import CursoOnline from "../utilities/images/curso-online.png"
+import CursoOnline from "../utilities/images/curso-online.png";
+import ProyectoRepo from "../utilities/images/proyecto-repo.png";
 
 const ServicesCardStyled = styled.div`
   width: 100%;
@@ -10,10 +12,9 @@ const ServicesCardStyled = styled.div`
   padding-top: 70px;
   color: #454360;
   @media (max-width: 968px) {
-      flex-direction: column;
-      align-items: center;
-
-    }
+    flex-direction: column;
+    align-items: center;
+  }
 
   div {
     width: 25%;
@@ -25,8 +26,8 @@ const ServicesCardStyled = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'roboto-bold';
-    @media (max-width: 968px){
+    font-family: "roboto-bold";
+    @media (max-width: 968px) {
       margin-bottom: 50px;
       width: 60%;
     }
@@ -44,30 +45,32 @@ const ServicesCardStyled = styled.div`
       letter-spacing: 1px;
       text-align: justify;
     }
-    button {
+    a {
       padding: 12px 20px;
       border-radius: 25px;
       background-color: #be9c04;
       color: #fff;
       font-weight: bold;
       letter-spacing: 1px;
+      padding: 12px 25px;
     }
   }
 
   div:nth-child(2) {
-background-color: #6C6CE5;
-  button {
-    background-color: #1F1FB2;
+    background-color: #6c6ce5;
+    a {
+      background-color: #1f1fb2;
+      padding: 12px 40px;
+    }
   }
-}
 
-div:nth-child(3) {
-background-color: #F97B8B;
-  button {
-    background-color: #EA0B27;
+  div:nth-child(3) {
+    background-color: #f97b8b;
+    a {
+      background-color: #ea0b27;
+      padding: 12px 20px;
+    }
   }
-}
-
 `;
 
 export const ServicesCard = () => {
@@ -77,28 +80,28 @@ export const ServicesCard = () => {
         <img src={OrdenadorPer} alt="Computer Personal Desktop" />
         <h2>Desarrollo Web</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum
-          dolor sit amet consectetur, adipisicing elit.
+          Desarrollo Aplicaciones web con las últimas tecnologías para asegurar
+          que su sitio sea atractivo, fácil de navegar y altamente funcional.
         </p>
-        <button>Example</button>
+        <Link to="/services">Services</Link>
       </div>
       <div>
         <img src={CursoOnline} alt="Computer Personal Desktop" />
         <h2>Contenido Gratis</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum
-          dolor sit amet consectetur, adipisicing elit.
+          Ofreciendo tutoriales y opiniones Sobre programación, tecnología y
+          vida holística.
         </p>
-        <button>Example</button>
+        <Link to="/blog">Blog</Link>
       </div>
       <div>
-        <img src={OrdenadorPer} alt="Computer Personal Desktop" />
-        <h2>Cuelquier Cosa</h2>
+        <img src={ProyectoRepo} alt="Computer Personal Desktop" />
+        <h2>Mis Proyectos</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum
-          dolor sit amet consectetur, adipisicing elit.
+          Recopilación de mis trabajos más destacados en el campo del desarrollo
+          de aplicaciones web.
         </p>
-        <button>Example</button>
+        <Link to="/portfolio">Portafolio</Link>
       </div>
     </ServicesCardStyled>
   );

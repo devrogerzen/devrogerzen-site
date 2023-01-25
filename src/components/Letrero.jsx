@@ -5,7 +5,7 @@ import { Parpadea } from "../helpers/Parpadea";
 const LetreroContainer = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 50vh;
+  min-height: 80vh;
   color: #fff;
   justify-content: center;
   font-family: Gameplay;
