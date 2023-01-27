@@ -1,4 +1,4 @@
-import Layout from "../Layouts/Layout";
+import Layout from "../../src/layouts/Layout";
 import { NightLifeBG } from "../components/NightLifeBG";
 import { AboutMe } from "../components/AboutMe";
 import { Letrero } from "../components/Letrero";
